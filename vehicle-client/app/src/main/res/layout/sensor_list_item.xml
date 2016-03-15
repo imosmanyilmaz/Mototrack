@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sensor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sensor name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sensor_vendor_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sensor vendor v:1" />
+
+        <TextView
+            android:id="@+id/sensor_power_consumption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sensor power consumption" />
+
+        <TextView
+            android:id="@+id/sensor_resolution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sensor resolution" />
+
+        <TextView
+            android:id="@+id/sensor_maximum_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sensor maximum range" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

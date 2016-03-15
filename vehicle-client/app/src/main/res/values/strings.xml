@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Vehicle Client</string>
+    <string name="title_activity_main">Welcome to Vehicle Client</string>
+    <string name="action_settings">Settings</string>
+</resources>
